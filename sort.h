@@ -33,5 +33,7 @@ void heap_sort(int *array, size_t size);
 void radix_sort(int *array, size_t size);
 void bitonic_sort(int *array, size_t size);
 void quick_sort_hoare(int *array, size_t size);
+void recurs_quicksort(int *array, int low, int high, size_t size);
+int lomuto_partition(int *array, int low, int high, size_t size);
 
 #endif
