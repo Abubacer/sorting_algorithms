@@ -36,6 +36,5 @@ void quick_sort_hoare(int *array, size_t size);
 void recurs_quicksort(int *array, int low, int high, size_t size);
 int lomuto_partition(int *array, int low, int high, size_t size);
 void swap_nodes(listint_t **list, listint_t *n1, listint_t *n2);
-void heapify(int *array, int i, int n, size_t size);
 
 #endif
